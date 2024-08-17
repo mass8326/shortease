@@ -1,0 +1,9 @@
+[package]
+name = "shortease"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["cargo", "derive"] }
+dont_disappear = "3.0.1"
+mslnk = "0.1.8"
